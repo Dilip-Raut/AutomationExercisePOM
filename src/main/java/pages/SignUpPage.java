@@ -33,5 +33,7 @@ public void login(String strUserName, String strEmail) {
     
     public void clickSignUp() {
     	signUp.click();
+    	//waitForElementLoad(login);
+	    highlightElement(signUp, "red");
     }
 }
