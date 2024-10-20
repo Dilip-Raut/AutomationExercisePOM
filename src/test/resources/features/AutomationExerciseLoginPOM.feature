@@ -16,4 +16,4 @@ Feature: Gettin Details of Products
 
     Examples: 
       | username | email           |
-      | xxyyzzs11234 | xxyyzzs223456@gmail.com |
+      | xyopqw | xyopyts@gmail.com |
