@@ -3,6 +3,7 @@ Feature: Gettin Details of Products
   Background: 
     Given User is on AutomationExercise page "https://www.automationexercise.com/"
 
+@valid
   Scenario Outline: Validation About Products and other Details
     When User click on sign in button
     When User entered username as "<username>" and Email as "<email>"
@@ -15,4 +16,4 @@ Feature: Gettin Details of Products
 
     Examples: 
       | username | email           |
-      | Vinay112222 | abcdefghr@gmail.com |
+      | xxyyzzs11234 | xxyyzzs223456@gmail.com |

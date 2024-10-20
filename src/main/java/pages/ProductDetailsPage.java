@@ -34,6 +34,8 @@ public class ProductDetailsPage extends SeleniumDriver {
 	}
 	
 	public void clickOnContinue() {
+		JavascriptExecutor js = (JavascriptExecutor) SeleniumDriver.getDriver();
+		js.executeScript("window.scrollBy(0,450)", "");
     	usercontinue.click();
     }
     

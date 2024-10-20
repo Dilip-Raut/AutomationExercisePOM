@@ -31,9 +31,8 @@ public void login(String strUserName, String strEmail) {
 
 	}
     
-    public void clickSignUp() {
+    public void clickSignUp() throws InterruptedException {  
     	signUp.click();
-    	//waitForElementLoad(login);
-	    highlightElement(signUp, "red");
+	
     }
 }

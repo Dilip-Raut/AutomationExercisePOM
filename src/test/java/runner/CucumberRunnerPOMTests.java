@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(plugin = {"pretty", "html:target/HTMLReport/cucumber.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-				// tags= "@valid",
+				 //tags= "@valid",
 				 features = "src/test/resources/features/AutomationExerciseLoginPOM.feature", 
 				 glue ="steps"
 				 )

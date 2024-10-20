@@ -55,6 +55,7 @@ public class LoginPageDefinitions {
 	
 	@When("User click on SignUp button")
 	public void user_click_on_sign_up_button() throws InterruptedException {
+		Thread.sleep(2000);
 		objsignUpPage.clickSignUp();
 	    Thread.sleep(2000);
 	}
